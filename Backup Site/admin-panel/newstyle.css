@@ -1,0 +1,231 @@
+body {
+	background-color: white;
+}
+
+div.signbox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 42px 25px;
+
+
+  position: absolute;
+  top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  width: 499px;
+  height: 582px;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+
+  background: #604BD8;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 35px;
+}
+
+h1#adminpanel{
+  position: absolute;
+  left: 26.05%;
+  right: 25.85%;
+  top: 7%;
+  bottom: 78.52%;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  /* text-align: center; */
+
+  color: #FFFFFF;
+
+  /* display: grid; */
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 92px 0px; */
+}
+
+input#UID{
+  /* Rectangle 2 */
+
+  position: absolute;
+  left: 5.01%;
+  right: 5.01%;
+  top: 32.65%;
+  bottom: 58.08%;
+
+  width: 449px;
+  height: 54px;
+
+  text-align: center;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 56px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* margin: 92px 0px; */
+
+}
+
+input#passwd{
+  /* Rectangle 3 */
+
+  position: absolute;
+  left: 5.01%;
+  right: 5.01%;
+  top: 57.73%;
+  bottom: 32.99%;
+
+  width: 449px;
+  height: 54px;
+
+  text-align: center;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 56px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  /* margin: 92px 0px; */
+  margin-top: -50px;
+}
+
+input#subm{
+  position: absolute;
+  left: 5.01%;
+  right: 57.11%;
+  top: 82.82%;
+  bottom: 7.9%;
+
+  width: 189px;
+  height: 54px;
+
+  cursor: pointer;
+
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 56px;
+
+  background: #A468D5;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  /* margin: 92px 0px; */
+}
+
+input#homebtn{
+  position: absolute;
+  left: 5.01%;
+  right: 57.11%;
+  top: 82.82%;
+  bottom: 7.9%;
+
+  width: 189px;
+  height: 54px;
+
+  cursor: pointer;
+
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 56px;
+
+  background: #A468D5;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  /* margin: 92px 0px; */
+  margin-left: 255px;
+}
+
+#index{
+  width: 300px;
+  margin: auto;
+  /* height: 300px; */
+  display: grid;
+}
+
+#blueLink a{
+	color: blue;	
+}
+
+#blueLink a:hover{
+	color: red;	
+}
+
+.server{
+   font-weight: bold;
+   display: inline-block; 
+   background-color: #ffffff;
+   width: 100px;
+   height: 100px;
+   padding: 20px;
+   vertical-align: top;
+}
+.server:hover{
+  border-style: inset;
+  margin-top:10px;
+  cursor: pointer;
+  width: 150px; 
+  background-color: #9f9595;
+}
+.footer{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+	text-align:center;
+}
+
+.boldy{
+	font-weight: bold;
+}
